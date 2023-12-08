@@ -442,8 +442,8 @@ GameObject:
   - component: {fileID: 1214738668}
   - component: {fileID: 1214738667}
   - component: {fileID: 1214738666}
-  - component: {fileID: 1214738670}
   - component: {fileID: 1214738671}
+  - component: {fileID: 1214738672}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -579,7 +579,7 @@ SpriteRenderer:
   m_SortingLayerID: 1284401587
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2109257372, guid: c304ca49475b43a4db208071d2482736, type: 3}
+  m_Sprite: {fileID: 542285617, guid: c304ca49475b43a4db208071d2482736, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -605,18 +605,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1214738670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214738665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d2c28f378531f4a82fbe90c14c7a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1214738671
 Animator:
   serializedVersion: 5
@@ -638,6 +626,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1214738672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214738665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a977effef4d613499358cf65768479a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upForce: 200
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
