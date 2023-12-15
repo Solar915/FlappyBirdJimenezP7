@@ -8,7 +8,7 @@ public class GameControl : MonoBehaviour
     public GameObject gameOverText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
-    internal static object instance;
+    public static GameControl instance;
 
     // Start is called before the first frame update
     void Awake()
