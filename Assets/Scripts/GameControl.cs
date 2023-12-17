@@ -20,9 +20,7 @@ public class GameControl : MonoBehaviour
     {
         GameControl instance = null;
         if (instance == null)
-        {
             instance = this;
-        }
         else if (instance != this)
         {
             Destroy(gameObject);
@@ -48,7 +46,7 @@ public class GameControl : MonoBehaviour
     }
     public void BirdDied()
     {
-        gameOverText.SetActive(true);
+        gameOverText.SetActive (true);
         gameOver = true;
     }
 }
