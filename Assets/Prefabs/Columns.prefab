@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 1051048308500992229}
   - component: {fileID: 6422317782540444195}
   - component: {fileID: 3477203050244985365}
-  - component: {fileID: 1261741329589276004}
+  - component: {fileID: 3859224757114513729}
   m_Layer: 0
   m_Name: Columns
   m_TagString: Untagged
@@ -329,7 +329,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.12, y: 1.92}
+  m_Offset: {x: -1.3370521, y: 1.92}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -340,7 +340,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.18}
+  m_Size: {x: 1.0630021, y: 2.18}
   m_EdgeRadius: 0
 --- !u!50 &6422317782540444195
 Rigidbody2D:
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f68d437d50ca4e4d8ed4d700769c5b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1261741329589276004
+--- !u!114 &3859224757114513729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -390,6 +390,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7763067262426834085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d8b5442313077442933c20cba952286, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e8aa676891067f469e403040bb51408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

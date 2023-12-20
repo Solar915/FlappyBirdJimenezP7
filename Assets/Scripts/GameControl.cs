@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameControl : MonoBehaviour
 {
     public GameObject gameOverText;
-    public Text scoreText;
+    public TextMeshProUGUI scoreText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
     public static GameControl instance;
@@ -18,7 +19,6 @@ public class GameControl : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        GameControl instance = null;
         if (instance == null)
             instance = this;
         else if (instance != this)
